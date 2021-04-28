@@ -1,0 +1,571 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: sans-serif;
+
+}
+
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+  a.imgl{
+    background-color: #69eded;
+}
+
+ a.imgl img {
+    width: 10%;
+    
+}
+
+
+#menu-id{
+    padding: 0px;
+    height: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.menu-one{
+    height: 25px;
+    margin-left: 60px;
+     
+}
+.menu-one ul, .menu-two ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-one ul li, .menu-two ul li{
+    display: inline;
+    margin-left: 10px;
+    padding: 3px;
+
+    
+}
+
+.menu-one ul li a, .menu-two ul li a {
+    font-size: 9px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    margin:  5px;
+    padding: 5px;
+
+    
+}
+
+.red{
+    background-color: red;
+}
+
+
+.menu-two{
+    margin-right: 70px;
+    height: 25px;
+}
+
+
+
+/*NAV BAR */
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+ color: #3e3e3e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+    margin-left: 10px;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #3e3e3e;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #e8e8e8;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+    background-color: #e8e8e8;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: #3e3e3e;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+/* END NAV BAR */
+
+
+
+
+/*INTRODUCTION*/
+
+.introduction{
+    width: 100%;
+    height: 120px;
+}
+
+.intoduction-info{
+   
+    padding: 10px 1px;
+    width: 65%;
+    height: 100px;
+    
+}
+.intoduction-info h1{
+    font-family:serif;
+    font-size: 27px;
+    margin: 4px;
+    font-weight: 400;
+    color: #222222;
+    margin-left: 30px;
+} 
+
+.font-one{
+    font-family:serif;
+    font-size: 27px;
+    margin: 4px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.font-two{
+     font-family:serif;
+    font-size: 16px;
+    margin: 2px;
+    color:#5c5c5c;
+}
+
+
+
+/*COMPARATION*/
+
+#comparation-cards{
+    
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+}
+
+
+
+.box-card{
+      width: 90%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      display:flex;
+      justify-content: space-between;
+   
+}
+
+.box-card-cards{
+  
+    border: 1px solid #d4d4d4;
+    flex: 1;
+    margin: 7px;
+    min-width: 43%;
+}
+.box-card-cards p a{
+    color: #5d5d5d;
+}
+
+.box-card-cards img{
+    width: 100%;
+    display: block;
+}
+
+.sub-card{
+      width: auto;
+    height: 150px;
+
+    padding: 7px 22px;
+}
+
+
+.sub-card a{
+    font-size: 25px;
+    font-weight: 100;
+   color:#5c5c5c;
+}
+
+.black{
+        background-color: #464646;
+}
+
+
+/*ACCOUNT ID*/
+
+#accounts{
+    width: 100%;
+    margin-top: 20px;
+     
+}
+.intoduction-info h5{
+    padding-left: 30px;
+     margin: 3px;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.intoduction-info p{
+    padding-left: 30px;
+     margin: 3px;
+    font-size: 14px;
+}
+
+.account-box{
+ 
+     width: 95%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      display:flex;
+      justify-content: space-around;
+}
+
+.account-boxes img{
+ width: 95%;
+    
+}
+                    
+.account-boxes{
+    flex: 1;
+    margin: 5px;
+}
+.account-info a{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: #484848;
+}
+
+
+
+/*GUIDE*/
+
+.guide-box{
+margin-top: 20px;
+     width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+}
+
+.guide-info{
+   
+    margin-left: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.guide-info h4{
+    margin: 2px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.guide-account{
+    background-color: darkred;
+     width: 95%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+.guide-account-info{
+       background-color: aqua;
+      width: 93%;
+
+}
+
+.guide-account-info h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+.guide-account-info p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1px;
+}
+
+
+.guide-account img {
+    width: 100%;
+}
+
+
+
+.guide-box-one{
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.boxes img{
+    width: 100%;
+}
+
+.boxes{
+    flex: 1;
+    padding: 7px;
+}
+
+.guide-box-one-info h3{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #555555;
+    margin: 6px;
+        
+}
+
+.guide-box-one-info p{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #555555;
+    margin: 6px;
+        
+}
+                           /* ENF  guide-box-one*/
+
+
+
+
+                           /* START  OVERDRAFT*/
+
+
+.overdraft-box{
+margin-top: 20px;
+     width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+}
+
+.overdraft-info{
+   
+    margin-left: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.overdraft-info h4{
+    margin: 2px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.overdraft-account{
+  
+     width: 95%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+.overdraft-account-info{
+     
+      position: absolute;
+      width: 33%;
+    margin-top: 10%;
+
+}
+
+.overdraft-account-info h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+.overdraft-account-info p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1px;
+}
+
+
+.overdraft-account img {
+    width: 62%;
+    float: right;
+    
+}
+
+
+.overdraft-box-one{
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.boxes img{
+    width: 100%;
+}
+
+.boxes{
+    flex: 1;
+    padding: 7px;
+}
+
+.overdraft-box-one-info h3{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #555555;
+    margin: 6px;
+        
+}
+
+.overdraft-box-one-info p{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #555555;
+    margin: 6px;
+        
+}
+
+                            /* ENF  OVERDRAFT*/
+
+
+
+footer{
+    background-color: #434343;
+    width: 100%;
+    height: 50px;
+    padding: 20px 0 
+}
+
+.suport-box{
+      width: 84%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      display: flex;
+    justify-content: space-between;
+    
+}
+
+.suport-boxes{
+    min-width:23%;
+    text-align: center;
+    color: white;
+     border-right: 2px solid white;
+   
+}
+
+.suport-boxes h6{
+    margin: 5px;
+    font-size: 13px;
+}
+.white{
+    color: white
+}
+.suport-boxes  p a{
+    margin: 4px;
+    color: aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+@media screen and (max-width: 768px) {
+    
+    .intoduction-info{
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 492px) {
+ 
+    .box-card{
+        display: inline;
+        text-align: center;
+    }
+    .sub-card a{
+    font-size: 20px;
+    font-weight: 100;
+   color:#5c5c5c;
+}
+    
+account-box{
+ 
+     width: 95%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      display:inline;
+      
+}
+    
+    account-boxes img {
+    width: 45%;
+    float: left;
+}
+    
+    guide-info {
+  width: 70%;
+    text-align: end;
+    background-color: aqua;
+        margin-bottom: 10px;
+}
+    
+   guide-account-info{
+        background-color: brown;
+    }
+    
+}
+
+
+
+
+

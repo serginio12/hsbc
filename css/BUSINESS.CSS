@@ -1,0 +1,534 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.container{
+   margin-top: 50px;
+    padding: 0px;
+    max-width: 91%;
+    margin: 0 auto;
+}
+
+
+#menu-id{
+    padding: 0px;
+    height: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.menu-one{
+    height: 25px;
+    margin-left: 100px;
+     
+}
+.menu-one ul, .menu-two ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-one ul li, .menu-two ul li{
+    display: inline;
+    margin-left: 10px;
+    padding: 3px;
+
+    
+}
+
+.menu-one ul li a, .menu-two ul li a {
+    font-size: 9px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    margin:  5px;
+    padding: 5px;
+
+    
+}
+
+.red{
+    background-color: red;
+}
+
+
+.menu-two{
+    margin-right: 70px;
+    height: 25px;
+}
+
+
+
+/* HEADER  */
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+ color: #3e3e3e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+    margin-left: 10px;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #3e3e3e;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #e8e8e8;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+ background-color: #e8e8e8;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: #3e3e3e;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+/* END   HEADER  */
+
+
+.banner-one{
+    background-image: url(/IMG/business1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 270px;
+    position: relative;
+}
+
+
+.business-info-one{
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    max-width: 410px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.business-info-one h2{
+    font-size: 28px;
+    margin: 0px 0px 12px;
+    font-weight: 100;
+    
+}
+.business-info-one p{
+    font-size: 14px;
+    margin: 0px 0px 10px;
+    font-weight: 100;
+}
+
+.business-info-one button {
+    background: #DE0011;  
+    padding: 2px;
+    border: none;
+}
+button a {
+    background: #DE0011;  
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.layout{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.layout-boxes{
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    
+}
+
+.layout i.fa {
+    font-size: 18px;
+    color: #a2a2a2;
+    margin-bottom: 5px;
+}
+                   
+.layout-boxes h3{
+    font-size: 15px;
+    margin-top: 3px;
+    color: black;
+    font-weight: 100;
+}
+
+.layout-boxes p {
+     margin-top: 3px;
+    color: #2c2c2c;
+ 
+    font-size: 11px;
+}
+
+
+
+
+.primary{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.primary-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.primary-box img{
+    width: 100%;      
+}
+
+.primary-boxes{
+    flex: 1;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+.primary-boxes h3{
+    font-size: 17px;
+    font-weight: 100;
+    margin: 12px;
+     color: #2c2c2c;
+}
+.primary-boxes p{
+    font-size: 11px;
+    font-weight: 100;
+    margin: 12px;
+    color: #2c2c2c;
+}
+
+.primary-boxes button{
+     margin: 12px;
+    
+}
+
+
+
+
+.market{
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.market-info{
+  position: relative;
+    width: 50%;
+    margin: 12px;
+    color: #2c2c2c; 
+     flex-wrap: wrap;
+}
+
+
+.market-info h3{
+  
+    margin: 1px;
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+
+
+.market-boxes img{
+  width: 100%;
+    object-fit: cover;
+}
+
+.market-boxes{
+flex: 1;
+margin: 10px;
+border-bottom: 1px solid #646464;
+    text-align: center;
+}
+
+
+                  
+.banner-two{
+    padding-top: 30%;
+     background: url(/IMG/business7.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 30px;
+}
+ .banner-two .business-info{
+    color: white;
+    width: 50%;
+    background-color: rgba(44, 44, 44, 0.84);
+}
+
+.banner-two .business-info h2{
+    font-size: 20px;
+    margin: 2px;
+    font-weight: 100;
+}
+
+
+
+.award{
+    width: 100%;
+}
+
+
+.award-info{
+    max-width: 400px;
+    margin-left: 30%;
+}
+
+.award-info h2{
+    text-align: center;
+    font-size: 20px; 
+}
+
+
+ 
+    .award-box{
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px
+    }  
+
+.award-boxes img {
+    width: 40%
+}
+.award-boxes{
+    flex: 1;
+    max-width: 31%;
+    text-align: center;
+}
+
+.award-boxes h2{
+    text-align: center;
+    font-size: 16px;
+}
+
+.award-boxes p{
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+
+.business-guide{
+    padding-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-image: url(/IMG/business11.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 
+
+.business-guide-info{
+    text-align: left;
+    width: 40%;
+    margin: 23px;
+    margin-left: 0px;
+}   
+    
+.business-guide-info h3{
+ color: white;
+}   
+    
+
+.business-guide-box{
+    display: flex;
+    height: 180px;
+    justify-content: space-between;
+    
+}
+
+
+.business-guide-boxes img{
+    width: 100%;
+    display: block;
+}
+
+
+.business-guide-boxes{
+    max-width: 24%;
+    background-color: white;
+    border: 1
+    1px solid white;
+}
+
+.business-guide-boxes h2{
+   font-size: 15px;
+    font-weight: 100;
+    color: #5a5a5a;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+
+footer{
+    background-color: #434343;
+    width: 100%;
+    height: 80px;
+    padding: 20px 0 ;
+}
+
+.suport-box{
+      width: 84%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      display: flex;
+    justify-content: space-between;
+    
+}
+
+.suport-boxes{
+    min-width:23%;
+    text-align: center;
+    color: white;
+     border-right: 2px solid white;
+   
+}
+
+.suport-boxes h6{
+    margin: 5px;
+    font-size: 13px;
+}
+.suport-boxes  p a{
+    margin: 4px;
+    color: aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .business-info-one{
+        display: none;
+    }
+}
+    
+@media screen and (max-width: 425px) {
+    
+    .menu-one{
+        margin-left: 12px;
+        
+    }
+    
+    .menu-one ul li{
+        margin-left: 1px;
+        padding: 1px;
+    }
+    .navbar a{
+        padding: 14px 27px;
+    }
+    
+    
+    .layout{
+        display: inherit;
+    
+    }
+    
+    .primary-box, .market, .award-box, .business-guide-box {
+        display: inherit;
+        height: auto;
+    }
+    
+    .business-guide{
+       height: auto;
+        padding-top: 10px;
+    }
+    
+    .award-boxes, .business-guide-boxes{
+        max-width: 100%;
+    }
+    
+    .award-info{
+        margin-left: 1%;
+    }
+    
+    .business-guide-info{
+        width: 83%;
+        text-align: center;
+        margin: 2px;
+    }
+    
+    .business-guide-boxes h2{
+        font-size: 20px;
+    }
+    
+    footer{
+        display: none;
+    }
+    
+}
+

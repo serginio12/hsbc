@@ -1,0 +1,436 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    margin-top: 50px;
+    padding: 0px;
+    max-width: 91%;
+    margin: 0 auto;
+   
+}
+#menu-id{
+    padding: 0px;
+    height: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.menu-one{
+    height: 25px;
+    margin-left: 100px;
+     
+}
+.menu-one ul, .menu-two ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-one ul li, .menu-two ul li{
+    display: inline;
+    margin-left: 10px;
+    padding: 3px;
+
+    
+}
+
+.menu-one ul li a, .menu-two ul li a {
+    font-size: 9px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    margin:  5px;
+    padding: 5px;
+
+    
+}
+
+.red{
+    background-color: red;
+}
+
+
+.menu-two{
+    margin-right: 70px;
+    height: 25px;
+}
+
+
+
+/* NAVBAR */
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+ color: #3e3e3e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+    margin-left: 10px;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #3e3e3e;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #e8e8e8;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+ background-color: #e8e8e8;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: #3e3e3e;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+.insurance-wrapper{
+    max-width: 100%;
+    background-image: url(/IMG/insurance.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    margin-bottom: 30px;
+    
+}
+
+.news-insurance{
+    text-align: center;
+    background-color:white;
+    width: 300px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.news-insurance h1{
+    font-size: 23px;
+     color: red;
+    margin: 
+}
+
+.news-insurance p{
+    font-size: 11px;
+    margin: 5px; 
+}
+
+
+.diversity-insurance{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.diversity-insurance-boxes-one{
+  flex: 2;
+    margin: 2px;
+    padding: 1%;
+    
+}
+
+.diversity-insurance-two{
+      padding: 1%;
+     flex: 1;
+    border-left: 1px solid black;
+}
+
+.diversity-insurance-boxes-one h2 {
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 100;
+}
+.diversity-insurance-boxes-one p {
+    font-size: 12px;
+    margin: 5px;
+}
+
+.diversity-insurance-two h2{
+     font-size: 22px;
+     margin-top: 20%;
+}
+
+.diversity-insurance-two p {
+    font-size: 12px;
+    margin: 1px;
+}
+
+
+
+.explore{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+
+.explore-new{
+    max-width: 100%;
+    padding-left: 10px;
+    border-left: 5px solid red;
+    margin-bottom: 16px;
+}
+
+.explore-new h1{
+    font-size:24px;
+    
+}
+
+button{
+    background-color: red;
+    width: 90px;
+    border: none;
+}
+button h6{
+    color: aliceblue;
+    margin: 4px;
+  
+}
+
+
+.cover-nfo, .article-news, .inter-insurance {
+    margin-bottom: 15px;
+    border-left: 5px solid red;
+    max-width: 46%;
+}
+.cover-nfo h1, .article-news h1, .inter-insurance h1 {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.cover{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+}
+.cover-boxes{
+    max-width: 55%;
+    
+}
+.cover-boxes h5{
+    font-size: 17px;
+    margin: 3px;   
+}
+.cover-boxes p{
+   font-size: 12px;
+    margin-bottom: 9px; 
+    color: #747474;
+}
+
+
+
+.student-insurance, .student-card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+
+.student-insurance-boxes img, .student-card-boxes img {
+    width: 100%;
+}
+
+
+.student-insurance-boxes, .student-card-boxes {
+    flex: 1;
+    margin: 2px;
+     border: 1px solid #d0d0d0;
+}
+
+
+.student-insurance-boxes-info, .student-card-boxes-info {
+    padding: 7px;
+}
+
+.student-insurance-boxes-info h1, .student-card-boxes-info h1 {
+    font-size: 21px;
+    margin: 16px 0px;
+    font-weight: 100;
+}
+
+span{
+    color: red;
+    
+}
+
+
+
+/*FOOTER*/
+
+
+footer{
+    background-color: #434343;
+    width: 100%;
+    height: 80px;
+    padding: 20px 0 ;
+}
+
+.suport-box{
+      width: 84%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+      display: flex;
+    justify-content: space-between;
+    
+}
+
+.suport-boxes{
+    min-width:23%;
+    text-align: center;
+    color: white;
+     border-right: 2px solid white;
+   
+}
+
+.suport-boxes h6{
+    margin: 5px;
+    font-size: 13px;
+}
+.suport-boxes  p a{
+    margin: 4px;
+    color: aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+
+
+@media screen and (max-width: 426px) {
+      .menu-one{
+        margin-left: 1px;
+    }
+    .menu-two{
+        margin-right: 17px;
+    }
+    .menu-one ul li {
+        margin-left: 1px;
+    }
+    
+    .news-insurance{
+        width: 323px;
+        margin-top: 165px;
+        background-color: rgba(240, 248, 255, 0.58);
+    }
+    
+    
+    .diversity-insurance{
+        display: inline-grid;
+    }
+    
+    .diversity-insurance-two h2 {
+        margin-top: 1px;
+        font-size: 16px;
+    }
+    
+    
+    .explore-new{
+
+    border-left: none;;
+    }
+    .cover-nfo h1, .article-news h1, .inter-insurance h1 {
+    font-size: 17px;
+    margin-left: 10px;
+}
+    
+    .student-insurance, .student-card {
+    display: inline-grid;
+}
+    
+    footer{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
